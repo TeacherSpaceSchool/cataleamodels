@@ -1,0 +1,12 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page6314394.html
+
+RewriteEngine On
+
+RewriteRule ^dss$ page6314394.html [NC]
+RewriteRule ^dss/$ page6314394.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6233-3731-4632-a663-346463356366/catka.ico [R=302,L]
+
